@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/r12"
+    >
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="@color/blanco"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusTopStart="16dp"
+        android:hint="nombre completo"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxBackgroundMode="outline"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="@color/blanco"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusTopStart="16dp"
+        android:hint="telefono"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxBackgroundMode="outline"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="@color/blanco"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusTopStart="16dp"
+        android:hint="Descripcion contacto"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxBackgroundMode="outline"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:boxBackgroundColor="@color/blanco"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusTopStart="16dp"
+        android:hint="Email"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxBackgroundMode="outline"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+
+        android:onClick="pasardatos"
+        android:text="Siguiente"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/datapicker_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="data picker"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:text="fecha seleccionada"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
